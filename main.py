@@ -1,6 +1,7 @@
 from modules.functions import get_todos, set_todos
 import time
 
+print("Test for git")
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
 todos = get_todos()
