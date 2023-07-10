@@ -13,6 +13,6 @@ def set_todos(items: list, path=FILEPATH):
         f.writelines(items)
 
 
-print(__name__)
+# print(__name__)
 if __name__ == "__main__":
     print("print from functions")
